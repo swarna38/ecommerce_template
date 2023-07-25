@@ -1,0 +1,360 @@
+@media (min-width: 375px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+    /* ---collection start----  */
+    #collection{
+        height:710px !important;
+    }
+    .collection-deatiles{
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+    /* -----end  */
+    /* ----newsletter----- */
+     #newsletter h3{
+        margin: 20px 0px 0px 40px !important;
+     }
+     /* ---news end----  */
+     /* ---footer----  */
+     .footer-frist, .footer-three{
+        margin-left: 0px !important;
+     }
+     .footer-one h5, .footer-one p{
+        margin-left: -39px;
+     }
+ }
+@media (min-width: 384px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+    /* ----products start----  */
+#products .portfolio-main{
+    height:450px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 340px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* ----products end----  */
+/* ---collection start----  */
+#collection{
+    height:715px !important;
+}
+.collection-deatiles{
+    margin-top: -70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+ }
+@media (min-width: 360px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+/* =====hero section start==== */
+    .carousel-item img{
+        height: 350px;
+    } 
+/* =====hero section end==== */
+/* ----products start----  */
+#products .portfolio-main{
+    height:420px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 300px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* ----products end----  */
+/* ---collection start----  */
+#collection{
+    height:715px !important;
+}
+.collection-deatiles{
+    margin-top: -70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+/* ---collection end  */
+/* ----newsletter----- */
+#newsletter h3{
+    margin: 20px 0px 0px 30px !important;
+ }
+ /* ---news end----  */
+ /* ---footer ----  */
+.footer-one h5, .footer-one p{
+    margin-left: -37px;
+}
+ }
+@media (min-width: 320px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+/* =====hero section start==== */
+    .carousel-item img{
+        height: 270px;
+    } 
+    .hero-explain p{
+        font-size: 16px;
+    }
+    .hero-explain h1{
+        font-size: 20px;
+        font-family: var(--noto);
+    }
+    .hero-main{
+        position: absolute; margin-top: -200px; left: 8%;
+    }
+/* =====hero section end==== */
+/* sale start  */
+.card-one{
+    background-image: url('../img/shop_banner_img1.jpeg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+ }
+ .card-two{
+    background-image: url('../img/shop_banner_img2.jpeg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .card-one p, .card-two p{
+    font-family: var(--lato);
+    margin-top: 50px;
+}
+/* ----sale end----  */
+/* products start-----  */
+#products .portfolio-main{
+    height:390px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 285px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* ----products end----  */
+/* ---collection start----  */
+#collection{
+    background-color: var(--color-sky);
+    height:745px;
+}
+.collection-deatiles{
+    margin-top: -70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+/* -----collection end  */
+/* ----newsletter----- */
+#newsletter h3{
+    margin: 20px 0px 0px 10px;
+ }
+ /* ---news end----  */
+ .footer-one h5, .footer-one p{margin-left: -34px;}
+ }
+@media (min-width: 390px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+    /* ---collection start----  */
+    #collection{
+        height:715px;
+    }
+    .collection-deatiles{
+        margin-top: -70px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+    }
+    /* -----collection end  */
+    /* ----newsletter----- */
+    #newsletter h3{
+        margin: 20px 0px 0px 40px;
+    }
+ /* ---news end----  */
+ }
+@media (min-width: 414px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+    /* ----products start----  */
+#products .portfolio-main{
+    height:420px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 300px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* ----products end----  */
+/* ----newsletter----- */
+#newsletter h3{
+    margin: 20px 0px 0px 55px !important;
+ }
+ /* ---news end----  */
+ }
+@media (min-width: 428px) {
+    /* ===navbar seart==== */
+    .badge-item{margin-top: 20px;}
+    /* =====navbar end==== */
+    /* ----products start----  */
+#products .portfolio-main{
+    height:420px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 300px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* ----products end----  */
+/* ---collection start-----   */
+#collection{
+    background-color: var(--color-sky);
+    height:715px;
+}
+/* -----collection end  */
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+/* =====hero section start==== */
+    .carousel-item img{
+        height: 390px;
+    }
+    .hero-main{
+        position: absolute; margin-top: -250px; left: 8%;
+    }
+    .hero-explain p{
+        font-size: 20px;
+    }
+    .hero-explain h1{
+        font-size: 50px;
+        font-family: var(--noto);
+    }
+    .card-one p, .card-two p{
+        font-size: 20px;
+        font-family: var(--lato);
+    } 
+    .card-one p, .card-two p{
+        /* font-size: 20px; */
+        font-family: var(--lato);
+        margin-top:0;
+    } 
+/* =====hero section end==== */
+/* ---productsn start------  */
+#products .portfolio-main{
+    height:390px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#products .portfolio-main .portfolio-child .port-img-box{
+    height: 285px;
+    overflow: hidden;
+}
+#products .portfolio-main .portfolio-child .port-img-box img{
+    height: 100%;
+    width: 100%;
+}
+/* -----products end ----  */
+/* -----collection start ---  */
+#collection{
+    height:735px !important;
+}
+.collection-deatiles{
+    margin-top: -70px;
+} 
+/* -----collection end  */
+/* ----newsletter----- */
+#newsletter h3{
+    margin:0 !important;
+ }
+ /* ---news end----  */
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* sale section  */
+    .card-one{
+        background-image: url('../img/shop_banner_img1.jpeg');
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+     }
+     .card-two{
+        background-image: url('../img/shop_banner_img2.jpeg');
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+     }
+     /* sale emd  */
+     /* ------collection start-----  */
+     #collection{
+        height:410px !important;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .collection-img img{
+        margin-top: -50px;
+    }
+    .collection-deatiles p{
+        margin-top: 130px;
+    }
+/* -----collection end -----      */
+     
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* ----hero section---- */
+    .carousel-item img{
+        height: 450px;
+    } 
+    .hero-main{
+        position: absolute; margin-top: -300px; left: 8%;
+    }
+    /* ----hero end------ */
+    /* ----sale start ----  */
+    .card-one{
+        background-image: url('../img/shop_banner_img1.jpeg');
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+     }
+     .card-two{
+        background-image: url('../img/shop_banner_img2.jpeg');
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+     }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+    
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

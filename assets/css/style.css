@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+:root{
+    --lato: 'Lato', sans-serif; 
+    --noto:'Noto Sans', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    --color-pink:#FE435C;
+    --color-sky:#D2FEF1;
+    --color-bisque:#FFDBDF;
+    --color-yellow:#CC7F00;
+    --color-gray:#B5B6BB;
+    --color-black:#333333;
+    --color-meroon:#DA323F;
+    --color-white:#ffff;
+}
+.btn-common{
+    background: var(--color-pink);
+    color: var(--color-white);
+    padding: 12px 34px;
+    font-size: 16px;
+    font-family: var(--noto);
+}
+/* ======navbar css start==== */
+.navbar-brand{
+    font-size: 25px;
+}
+.navbar ul li a.active, #products .portfolio-menu li.active, #products .portfolio-menu li:hover{
+    color: var(--color-pink) !important;
+}
+.navbar ul li a:hover{
+    color: var(--color-pink) !important;
+    transition: .4s ease-in-out;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* =====navbar end===== */
+/* =====products section start==== */
+.products-header h2{
+    font-family: var(--noto);
+}
+#products .portfolio-menu li{
+    font-family: var(--noto);
+    font-weight: 600;
+    cursor: pointer;
+}
+#products .portfolio-main .port-deatiles h6{
+    font-family: var(--noto);
+}
+#products .portfolio-main .port-deatiles p, #products .portfolio-main .port-deatiles small{color: green; font-family: var(--lato); font-size: 14.5px;}
+#products .portfolio-main .port-deatiles span{color: var(--color-yellow); font-size: 17px; font-weight:900;}
+.port-deatiles .port-icon{
+   margin-top: -12px;
+}
+.products-header h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 90px;
+    background: var(--color-meroon);
+    margin: 5px auto 0 auto;
+}
+/* ====products end====== */
+/* ====collection start===== */
+#collection{
+    background-color: var(--color-sky);
+    height:410px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.collection-img img{
+    margin-top: -50px;
+}
+.collection-deatiles p{
+    margin-top: 130px;
+}
+/* =====collection end=== */
+/* ===client start===== */
+.swiper-wrapper strong{
+    margin-top: 10px !important;
+}
+#client{
+    background: var(--color-bisque);
+}
+/* ===client end===== */
+/* delivery system start=== */
+.dalivary-child i{
+    font-size: 25px;
+}
+/* ===end=== */
+/* newsletter start=== */
+#newsletter{
+    background: var(--color-meroon);
+    height: 160px;
+}
+.news-from input{
+    letter-spacing: -1px;
+    font-family: var(--lato);
+}
+/* =====newsletter end==== */
+/* ====footer start==== */
+#footer{
+    background: var(--color-black);
+}
+.footer-icon i{
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.footer-icon i:hover{
+    transform: rotate(-360deg);
+    color: var(--color-meroon);
+}
+ 
+ 
+ 
